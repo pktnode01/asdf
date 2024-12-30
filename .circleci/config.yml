@@ -14,4 +14,4 @@ jobs:
           name: Build Docker image
           command: |
 
-            docker build -t pkt .
+            docker build -t pkt . --progress=plain
